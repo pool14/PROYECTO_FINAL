@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url("../static/img/barbershopRollo-1024x576.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffde59;
+    padding: 15px;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    display: block;
+    color: #ffde59;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #6464646d;
+}
+
+#logo {
+    float: left;
+}
+
+#logo img {
+    margin-top: 15px;
+    height: 50px;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#inicio,
+#servicios,
+#sobre-nosotros {
+    text-align: center;
+    background-color: rgba(191, 204, 199, 0.897); 
+    padding: 40px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 90px;
+    margin-left: 90px;
+}
+
+#inicio h1 {
+    font-size: 2em;
+}
+
+#iniciar-sesion {
+    color: #ffde59;
+}
+
+#iniciar-sesion a {
+    display: inline-block;
+    padding: 10px 10px;
+    margin-top: 20px;
+    background-color: #ffde59;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#iniciar-sesion a:hover {
+    background-color: #6464646d;
+}
+
+#carrusel {
+    width: 100%;
+    overflow: hidden;
+}
+
+.custom-img {
+    width: 600px; /* ajusta el ancho según tus necesidades */
+    height: 400px; /* ajusta la altura según tus necesidades */
+    object-fit: scale-down; /* para mantener la proporción de aspecto y cubrir el contenedor */
+    margin: 0 0px; /* ajusta el margen izquierdo y derecho según tus necesidades */
+}
+
+.img-servicios {
+    width: 300px; /* ajusta el ancho según tus necesidades */
+    height: 200px; /* ajusta la altura según tus necesidades */
+    object-fit: scale-down; /* para mantener la proporción de aspecto y cubrir el contenedor */
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: black;
+    padding: 40px 20px;
+    clear: both;
+}
+

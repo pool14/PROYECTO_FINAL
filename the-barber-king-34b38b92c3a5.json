@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "the-barber-king",
+  "private_key_id": "34b38b92c3a5b530725735a60b55d0208f643785",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCpeSn4b05tXo0q\n+MgMO5mLFy6Ux6uZXJcbyuHZqFeknjR+n7lGrpVX6U2yZ0v3ZGQULOpr1wZu1Rz0\nyE7UE2Zj5a4IZDqf+q+0NXKeHQmSR3gGkr1xbSsGZi6hQtRbcRMit97OwBLDN4yw\n6BGun8O02wWMzWE27KXpjw+w/mx7918btPN5CKlYzKRwpnbmyEZFiAGKd/XzIhmf\nqzWvxYoBAMeVhBT/72DzvC5KBEQRNh47L03VgBJjuhmb9Qs2xlUG0ij8E1k2KhWO\nVtWEKDW+hMQJfHP68dgY+HSWRyz0mYltKdPQlKXOkwvJMNyb1f99KX6yAXeO6z9g\nNvBp1XlBAgMBAAECggEALZWlsGlgExMHrbNVO9UcK8mEgghjI9E/4/3iWgVp7aGQ\nRS75SwXSrd7XQ1F9oYGjWbnrJC6mUFGKhF0Mtwaw19YDxcYP7tAjSrnFprnwxSPs\nKPh3dHcEx6fciwvKyv3TQ9dpWvtXEKN0eHEzsGDQ52iySXlE2N02k2gjtFv7Giyy\n/jTH3Qv/BZGUrFNLuBVFUmB3xcGHasl33S0JX4Myq8eJaE0S+swozXiDWpJttApA\njSQw9hSaQx8TjXOHpN0wPFAEGGJXLQubiS9xwmmDOVEVrQ6FVU5fouxvaotUHvN0\niSN7r9vEHWnZkNje5xYC/aFtHhVoGns57BWSGB8+MQKBgQDnh3LVG0ir+MbvrGPf\n0xSSEaXEd6hQYpn+BT/Vk70ykOBNAWHT6y9WhM0lZc0EBJU9+/7OLjNzAGgWKerv\nUgSFmjYvfJ60F6eMSK7213YHTIwo4XOfYyzIXt7dG+qE0YtoaxKHLDplitvn6V7j\nYVxpEKyEiyaWSZfcDJYURbXDwwKBgQC7Yqc44vN0ueC6jEMrnt6rb7CZWGIhlLOF\nK9y6mtVdjV8yuXMCScxcjE7P60bfS2x4ggohDQyaZXNChdx+LNV8kSTTysMhUr/8\ngoxZzBMqvpYov0vjlRoXM584sN43LZNV3GQGA80m+n6EjdIX5nbipGwXYLvFNxqD\nOk8J1TgSqwKBgQCAbnBSqnnbe3rPBK+6PxrQFB4CJ+YkAS4u7LaGQRfYbukdjkC4\nD2QI+E3cCuZ47hnjcl/b+2Dq0DTs5n++FZ8QhYS9PsHCYMS+WqtDni2IyvuMydMb\nfSYgWBAEUzH6T0qnt41lkjEqlqZ5tMjAFQfv+CHavF3BTD2DATBXOnwjhQKBgAer\nH+DKGOB8AuBfgRg15jLp3TZJUarCJR6cDupsD7NGZ9Dxme1MC9r1uvvzSvE0avn7\niGKV4CAparAcPkvDlfEFF5a7Q4UHl+fDh+7c1SP4rLh6K6bioTC14hw10MI9UTxA\nSq+cVDb2JVtTWnez7MWVqP7D7KtDeAhKyJVEbokFAoGAVpJx7koNTmEJAGWU53Cq\nzIHNVYg0Tev/u9HfbTWni3JIn1wAMF+X0Q/8OBzHR2+m5tVLu/oFVSg6nNxYndjc\nFFUrpV6dnZ/+cWC0cW6CMYu0AXjc9jl026Rq2lcMqnfcBmP76k+VejycHce0GFk7\nsnkJnoOCaJseMaEVyZq4xMU=\n-----END PRIVATE KEY-----\n",
+  "client_email": "calendar-service-accoun@the-barber-king.iam.gserviceaccount.com",
+  "client_id": "100241241983947791846",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/calendar-service-accoun%40the-barber-king.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

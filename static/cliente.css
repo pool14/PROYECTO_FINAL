@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url("../static/img/pepe2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+  /* Agregar estilos para centrar el contenedor */
+  .center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Agregar estilos para la card */
+  .card {
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  /* Centrar la card en dispositivos grandes */
+  @media (min-width: 768px) {
+    .card {
+      margin-top: 50px;
+    }
+  }
+  
+  
+  /* Estilos para la barra de navegación */
+  .navbar {
+    background-color: #000000;
+    color: white;
+  }
+
+  .navbar-brand {
+    margin-right: auto;
+}
+  
+  /* Estilos para los botones */
+  .btn-primary {
+    background-color: #ffde59;
+    border-color: #ffde59;
+    margin-left: 130px;
+    margin-top:10px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #ffde59;
+    border-color: #ffde59;
+    
+  }
+
+  .btn-danger {
+    margin-left: 70px;
+    margin-top:10px;
+
+  }
+  
+  .btn-outline-success {
+    color: #28a745;
+    border-color: #28a745;
+  }
+  
+  .btn-outline-success:hover {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  
+  /* Estilos para los botones de acción en las tablas */
+  .btn-action {
+    background-color: #ffde59;
+    border-color: #ffde59;
+  }
+  
+  .btn-action:hover {
+    background-color: #ffde59;
+    border-color: #ffde59;
+  }
+  
+  
+  /* Cambiar color del botón "Editar" */
+  .btn-action.btn-primary {
+    background-color: #424242;
+    border-color: #424242;
+  }
+  
+  .btn-action.btn-primary:hover {
+    background-color: #363636;
+    border-color: #363636;
+  }
+  
+  /* Cambiar color del botón "Eliminar" */
+  .btn-action.btn-danger {
+    background-color: #790000;
+    border-color: #790000;
+  }
+  
+  .btn-action.btn-danger:hover {
+    background-color: #3d0000;
+    border-color: #3d0000;
+  }
+  
+  .btn-confirmar {
+    color: white;
+    background-color: #007900;
+    border-color: #00791a;
+    margin-left: 100px;
+    
+  }
+
+  /* Estilos para los mensajes de alerta */
+  .alert {
+    margin-top: 20px;
+  }
+  
+  .alert-success {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+  }
+  
+  .alert-danger {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+  }
+  
+  /* Estilos para los contenedores */
+  .left-container {
+    background-color: rgba(191, 204, 199, 0.897);
+    padding: 20px;
+    margin: 15px;
+  }
+  
+  .right-container {
+    background-color: rgba(191, 204, 199, 0.897);
+    padding: 20px;
+    margin: 15px;
+    min-height: 500px; /* Mínima altura para que el contenedor tenga espacio inicial */
+    overflow-y: auto; /* Agregar scroll vertical si el contenido excede la altura */
+  }
+  
+  .card {
+    max-width: 400px;
+    width: 100%;
+    background-color: rgba(191, 204, 199, 0.897);
+    padding: 20px;
+    border: none;
+  }
+  
+  /* Centrar la card en dispositivos grandes */
+  @media (min-width: 768px) {
+    .card {
+        margin-top: -200px;
+    }
+  }
+
+  .nombre-cliente{
+    margin-top: 10px;
+    margin-left: 470px;
+    font-size: 17px;
+    color: white;
+  }

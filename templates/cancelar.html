@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cancelar Cita</title>
+</head>
+<body>
+    <h1>Detalles de la Cita</h1>
+    <p>Fecha: {{ fecha }}</p>
+    <p>Hora: {{ hora }}</p>
+    <p>Servicio: {{ servicio }}</p>
+
+    <form method="post">
+        <input type="submit" value="Cancelar Cita">
+    </form>
+
+    <!-- Mostrar mensajes flash -->
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            <ul>
+                {% for message in messages %}
+                    <li>{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    {% endwith %}
+</body>
+</html>
